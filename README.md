@@ -27,6 +27,9 @@ To ensure reproducibility, this project uses `uv` for virtual environment manage
     ```bash
     uv sync
     ```
+### Main notebook for submission
+The `ulaanbaatar_mn_realestate_salary_nb.ipynb` file is the submission file. In this notebook, I've downloaded statistical data about realestate prices and average household income from the Mongolian statistical office website (1212.mn) and visualized the aspects of price/income ratio as chart. 
+
 
 ### Using `uv` Virtual Environment with Jupyter in VS Code
 
