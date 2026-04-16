@@ -22,9 +22,10 @@ To ensure reproducibility, this project uses `uv` for virtual environment manage
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
     ```
 
+
 4. Install dependencies:
     ```bash
-    uv pip install -r requirements.txt
+    uv sync
     ```
 
 ### Using `uv` Virtual Environment with Jupyter in VS Code
