@@ -1,6 +1,6 @@
 
 # Trustworthy AI Course 2026 Submission
-A comparison exploratory data analysis (EDA) of the publicly available datasets from the [Hungarian Central Statistical Office (KSH)](https://www.ksh.hu/?lang=en) and the [National Statistics Office of Mongolia](https://www.1212.mn/en) as the assignment. The aim of the EDA task was to answer the question "**In which region and at what time could one purchase how many square meters of a new apartment with a single month's average net wage?**"? Compared and contrasted between the Hungarian data with the Mongolian data 
+A comparison exploratory data analysis (EDA) of the publicly available datasets from the [Hungarian Central Statistical Office (KSH)](https://www.ksh.hu/?lang=en) and the [National Statistics Office of Mongolia](https://www.1212.mn/en) as the assignment. The aim of the EDA task was to answer the question "**In which region and at what time could one purchase how many square meters of a new apartment with a single month's average net wage?**"? Compared and contrasted between the Hungarian data with the Mongolian data, in which the results shows that, historically, you could purchase more square meters of new apartment in Mongolia than in Hungary. 
 month's average net wage?
 ## Setup Instructions
 
