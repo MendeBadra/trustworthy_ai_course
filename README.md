@@ -2,6 +2,9 @@
 # Trustworthy AI Course 2026 Submission
 A comparison exploratory data analysis (EDA) of the publicly available datasets from the [Hungarian Central Statistical Office (KSH)](https://www.ksh.hu/?lang=en) and the [National Statistics Office of Mongolia](https://www.1212.mn/en) as the assignment. The aim of the EDA task was to answer the question "**In which region and at what time could one purchase how many square meters of a new apartment with a single month's average net wage?**"? Compared and contrasted between the Hungarian data with the Mongolian data, in which the results shows that, historically, you could purchase more square meters of new apartment in Mongolia than in Hungary. 
 
+
+Changed the dataset to `bike-sharing-dataset` found in [UC Irvine ML repository](https://archive-beta.ics.uci.edu/dataset/275/bike+sharing+dataset) due to small number of observation in the Mongolian income and regional apartment prices. Performed EDA, used `LIME` and `SHAP`ley sampling explainability methods to explain random forest model.
+
 ## Setup Instructions
 
 ### Creating a Virtual Environment with `uv`
@@ -29,6 +32,8 @@ To ensure reproducibility, this project uses `uv` for virtual environment manage
     uv sync
     ```
 ### Main notebooks
+**Bike sharing dataset EDA and Evaluation of Models:** The bikesharing dataset and accompanying script to make any year (for me it was 2025) data from capital bikes website.
+
 **Hungarian data EDA**: The `intro_nb.ipynb` file is the EDA performed on the Hungarian data. It's based on the class homework.
 
 **Mongolian data EDA**: The `ulaanbaatar_mn_realestate_salary_nb.ipynb` file is the submission file. In this notebook, I've downloaded statistical data about realestate prices and average household income from the Mongolian statistical office website (1212.mn) and visualized the aspects of price/income ratio as chart. 
